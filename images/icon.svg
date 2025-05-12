@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <rect width="128" height="128" fill="#2d2d30"/>
+  <path d="M94,34H82V22L94,34z" fill="#75beff"/>
+  <path d="M82,34V22H42c-2.2,0-4,1.8-4,4v76c0,2.2,1.8,4,4,4h56c2.2,0,4-1.8,4-4V38H86C83.8,38,82,36.2,82,34z" fill="#75beff"/>
+  <path d="M72,52H34c-2.2,0-4,1.8-4,4v56c0,2.2,1.8,4,4,4h48c2.2,0,4-1.8,4-4V62C86,56.5,81.5,52,76,52H72z" fill="#2d2d30"/>
+  <g fill="#75beff">
+    <path d="M44,84l4-4l4,4l2-2l-6-6l-6,6L44,84z"/>
+    <path d="M68,84l-4-4l-4,4l-2-2l6-6l6,6L68,84z"/>
+    <path d="M50,92h12v-2H50V92z"/>
+  </g>
+  
+  <!-- Background circle for text -->
+  <circle cx="64" cy="35" r="18" fill="#2d2d30" stroke="#75beff" stroke-width="2"/>
+  
+  <!-- Text "SCa" -->
+  <text x="64" y="41" font-family="Arial, sans-serif" font-weight="bold" font-size="16" text-anchor="middle" fill="#75beff">SCa</text>
+</svg>

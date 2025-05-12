@@ -1,22 +1,47 @@
+# Development folders
 .vscode/**
 .vscode-test/**
-src/**
-.gitignore
-.yarnrc
-vsc-extension-quickstart.md
-**/tsconfig.json
-**/.eslintrc.json
-**/*.map
-**/*.ts
-node_modules/**
+test/**
 .git/**
 .github/**
-test/**
-images/icon.svg
-eslint.config.mjs
+
+# Source code (since we publish the compiled JS)
+src/**
+**/*.ts
+
+# Build artifacts and logs
+**/*.map
+*.js.map
+src/*.js
+src/**/*.js
+*.vsix
+*.log
+*.tsbuildinfo
+
+# Dev config files
+**/tsconfig.json
+**/.eslintrc.json
+.gitignore
+.yarnrc
 .editorconfig
 .eslintignore
 .prettierrc
 .prettierignore
 .travis.yml
+eslint.config.mjs
+
+# Documentation not needed in the package
+vsc-extension-quickstart.md
 CHANGELOG.md
+
+# Node modules (will be reinstalled by users)
+node_modules/**
+
+# Source SVG (we only need the PNG for the marketplace)
+images/icon.svg
+
+# Keep only what's necessary
+# !out/**/*.js       # Keep all compiled JS files 
+# !images/icon.png   # Keep the icon
+# !LICENSE           # Keep the license
+# !README.md         # Keep the README
